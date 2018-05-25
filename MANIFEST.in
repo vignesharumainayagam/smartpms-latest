@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include smartpms *.css
+recursive-include smartpms *.csv
+recursive-include smartpms *.html
+recursive-include smartpms *.ico
+recursive-include smartpms *.js
+recursive-include smartpms *.json
+recursive-include smartpms *.md
+recursive-include smartpms *.png
+recursive-include smartpms *.py
+recursive-include smartpms *.svg
+recursive-include smartpms *.txt
+recursive-exclude smartpms *.pyc
